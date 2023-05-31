@@ -1,0 +1,75 @@
+.header{
+    display: flex;
+    /* background-color: white; */
+    height:50px ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logoImage{
+    display: flex;
+    width: 100px;
+    margin-left: 13px;
+    margin-top: -6px;
+}
+.headerRightSection{
+    display: flex;
+    margin-right: 14px;
+    
+}
+.languageSection{
+    position: relative;
+    margin-top: -7px;
+    
+}
+.select{
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: black;
+    font-family:  sans-serif;
+    font-size: 10px;
+    border-radius: 4px;
+    font-weight: 400;
+    border-width: 1px;
+    border-color: rgba(85, 83, 83, 0.846);
+    -webkit-appearance: none;
+}
+.globalImage{
+    position: absolute;
+    width: 12px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    margin-left: 8px;
+    margin-top: -18px;
+}
+.caretDown{
+ position: absolute;
+ margin-left: 64px;
+ margin-top: -16px;
+ font-size: 9px;
+}
+.signinButton{
+    margin-left: 10px;
+    background-color: rgb(219, 17, 25);
+    color: white;
+    font-size: 10px;
+    font-family: Roboto;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+.signinButton:hover{
+    background-color: rgb(193, 17, 25);
+}
+.signinSection{
+    margin-top: -7px;
+}

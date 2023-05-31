@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(0, 8, 29);
+    
+}
+p{
+    font-family: sans-serif;
+}
+div{
+    font-family: sans-serif;
+    color: white;
+}
+td{
+    width:60px
+}

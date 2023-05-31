@@ -1,0 +1,256 @@
+.mainSection{
+    height: 400px;
+    width: 750px;
+    
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    object-fit: cover;
+    
+    
+}
+.interFaceSection{
+    display: flex;
+    flex: 1;
+    background-image:radial-gradient(93.75% 105.88% at 0.39% 99.26%, rgba(150, 1, 7, 0.4) 1.42%, rgba(30, 1, 66, 0.51) 53.8%, rgba(13, 14, 32, 0) 100%),linear-gradient(98.24deg, #1D0005 14.75%, rgba(0, 8, 29, 0.48) 100%),url('/Images/backgroundImage.jpg');  
+    object-position: center;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 15px;
+    z-index: 0;
+    position: relative;
+}
+.contantSection{
+    z-index: 50;
+    width: 58%;
+    top: 100px;
+   color: white;
+    position: absolute;
+    margin-left: 65px;
+}
+.mainTitle{
+    position: absolute;
+    font-weight: 900;
+    font-size: 2rem;
+}
+.subTitle1{
+    position: absolute;
+    margin-top: 100px;
+    font-size: 12px;
+}
+.subTitle2{
+    position: absolute;
+    margin-top: 138px;
+    font-weight: 550;
+    font-size: 12px;
+}
+.loginSection{
+    display: flex;
+    margin-top: 168px;
+}
+
+.getStart{
+    margin-left: 6px;
+}
+.textField{
+    /* padding-top: 3px; */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 250px;
+    padding-left: 7px;
+    background-color: #1d1017;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(241 236 236 / 41%);
+    font-size: 11px;
+    font-weight: 551;
+    border-radius: 4px;
+    outline: none;
+
+}
+
+.startButton{
+    font-size: 16px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    background-color: #e11e1e;
+    color: white;
+    border: solid;
+    border-style: none;
+    border-radius: 4px;
+}
+.imageContentSection{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+    height: 1000px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+.firstImageContentSection{
+    display: flex;
+    flex-direction: row;
+  
+    height: 221px;
+    margin-top: 30px;
+}
+.firstContentSection{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.firstImageSection{
+    
+    width: 50%;
+}
+.firstContentSectionTitle{
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 86px;
+    margin-left: 56px;
+}
+.firstContentSectionSubTitle{
+    margin-left: 56px;
+    font-size: 11px;
+    margin-top: 10px;
+}
+.firstImage{
+    height: 235px;
+    margin-left: 3px;
+    background: radial-gradient(15.9% 43.04% at 31.9% 46.6%, rgb(101, 20, 59) 0%, rgb(0, 8, 29) 100%);
+}
+.secondImageContentSection{
+    height: 260px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.secondImageSection{
+    width:50%;
+    
+
+}
+.secondImage{
+    height: 237px;
+    margin-top: 32px;
+    margin-left: 60px;
+    background: radial-gradient(15.9% 43.04% at 31.9% 46.6%, rgb(101, 20, 59) 0%, rgb(0, 8, 29) 100%);
+}
+.secondContentSection{
+    width: 50%;
+   
+}
+.SecondContentSectionTitle{
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 120px;
+}
+.secondContentSectionSubTitle{
+    
+    font-size: 11px;
+    margin-top: 10px;
+}
+.thirdContentSectionTitle{
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 83px;
+    margin-left: 56px;
+}
+.thirdImage{
+    height: 235px;
+    margin-left: 9px;
+    background: radial-gradient(15.9% 43.04% at 31.9% 46.6%, rgb(101, 20, 59) 0%, rgb(0, 8, 29) 100%);
+}
+.fourthImage{
+    height: 235px;
+    margin-left: 59px;
+    margin-top: 32px;
+    background: radial-gradient(15.9% 43.04% at 31.9% 46.6%, rgb(101, 20, 59) 0%, rgb(0, 8, 29) 100%);
+}
+.FourthContentSectionTitle{
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 113px;
+    
+}
+.questionSection{
+    display: flex;
+    flex-direction: column;
+    height: 526px;
+    
+    margin-top: 97px;
+    margin-left: 76px;
+    margin-right: 76px;
+}
+.askQuestionTitle{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.questionSubTitle{
+    display: flex;
+    flex-direction: row;
+    height: 58px;
+    background-color: #132144;
+    margin-bottom: 6px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 18px;
+    padding-right: 20px;
+}
+.questionOne{
+    font-size: 16px;
+}
+.questionSectionEmailSubTitle{
+    margin-top: 10px;
+    font-size: 13px;
+}
+.questionSectionEmailSection{
+    display: flex;
+    flex-direction: row;
+    
+    height: 54px;
+    margin-top: 13px;
+}
+.questionSectionloginSection{
+    display: flex;
+}
+#questionSectionloginSectiontextField{
+    background-color: #0f1118;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+   
+    margin-top: 51px;
+    margin-left: 75px;
+    margin-right: 91px;
+}
+.contactSection{
+    font-size: 11px;
+    color: #b3b5bc;
+}
+
+.table{
+    width: 100%;
+    height: 100px;
+    
+    margin-top: 31px;
+    font-size: 9px;
+    color: #b3b5bc;
+}
+.footerSectionLanguageSelectBox{
+    margin-top: 23px;
+}
+.copyright{
+    font-size: 10px;
+    color: #b3b5bc;
+    margin-top: 26px;
+}
